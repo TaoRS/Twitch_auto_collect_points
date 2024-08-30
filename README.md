@@ -1,4 +1,4 @@
-# Twitch_auto_collect_points
+# Twitch Auto Collect Points
 
 Script to auto collect points on twitch channels
 
