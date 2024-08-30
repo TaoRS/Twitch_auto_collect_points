@@ -20,7 +20,7 @@ Script to auto collect points on twitch channels
 3. Paste the code on the console and press `enter`
 4. Close the console or twitch will memory leak. I learned this the hard way.
 
-That's it. The script will query the document every 30 seconds to chack in the bonus button is there and click it if it is.
+That's it. The script will query the document every 30 seconds to check in the bonus button is there and click it if it is.
 
 **Important Note:** If you **close** the tab or the browser you need to **repeat** the process. 
 
@@ -36,7 +36,7 @@ Use the following code to check if it still works (the button needs to be visibl
   document.querySelector('button[aria-label="Claim Bonus"]');
 ```
 
-If you press enter it shoul return something like this
+If you press enter it should return something like this
 
 ```html
   <button class="ScCoreButton-sc-ocjdkq-0…-ocjdkq-5 ljgEdo fEpwrH" aria-label="Claim Bonus">
@@ -44,7 +44,7 @@ If you press enter it shoul return something like this
 
 It will return `null` it it doesn't work anymore. 
 
-At that point feel free to open a issue or submit a PR with the new selector.
+At that point feel free to open an issue or submit a PR with the new selector.
 
 
 Enjoy.
